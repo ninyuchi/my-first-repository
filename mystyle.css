@@ -1,0 +1,44 @@
+body {
+    background: #081b29;
+  }
+.home-content {
+    justify-content: center;
+    background: violet;
+    max-width: 1000px;
+
+
+}
+.home-content h1{
+    font-size: 50px;
+    font-weight: 100;
+
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 100;
+    color: #00ffff;
+
+}
+.home-content p{
+    font-size: 16px; 
+}
+.home-content btn-box{
+    width: 345px;
+    height: 50px;
+    color: #00ffff;
+}
+.btn-box{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50%;
+    background: transparent;
+    border: 2px solid #00ffff;
+    border-radius: 8px;
+}
+.mb-3{
+    width: 345px;
+    height: 50px;
+
+}
