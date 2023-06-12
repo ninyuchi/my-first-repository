@@ -3,8 +3,8 @@ body {
   }
 .home-content {
     justify-content: center;
-    background: violet;
-    max-width: 1000px;
+    background: transparent;
+    max-width: 2000px;
 
 
 }
