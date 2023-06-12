@@ -1,22 +1,35 @@
-body {
-    background: #081b29;
+ body {
+    background: url(./images/marble.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
   }
 .home-content {
     justify-content: center;
     background: transparent;
     max-width: 2000px;
+    color: black;
+    font-family: 'Artifika';font-size: 22px;
 
 
 }
 .home-content h1{
     font-size: 50px;
     font-weight: 100;
+    color: black;
+    font-family: 'Artifika';font-size: 22px;
 
 }
 .home-content h3{
     font-size: 32px;
     font-weight: 100;
-    color: #00ffff;
+    color: black;
+    font-family: 'Artifika';font-size: 22px;
 
 }
 .home-content p{
@@ -25,7 +38,8 @@ body {
 .home-content btn-box{
     width: 345px;
     height: 50px;
-    color: #00ffff;
+    color: black;
+    font-family: 'Artifika';font-size: 22px;
 }
 .btn-box{
     display: inline-flex;
@@ -40,5 +54,16 @@ body {
 .mb-3{
     width: 345px;
     height: 50px;
+
+}
+.btn-check{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50%;
+    background: transparent;
+    border: 2px solid #00ffff;
+    border-radius: 8px;
 
 }
